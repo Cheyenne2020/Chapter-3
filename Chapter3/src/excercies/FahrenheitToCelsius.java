@@ -6,7 +6,7 @@ public class FahrenheitToCelsius {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		 
 		double Tempeture;
 		Scanner input = new Scanner(System.in); 
 		System.out.println("What is the tempeture at 8? >>");
@@ -23,10 +23,11 @@ public class FahrenheitToCelsius {
 	}
 	public static void dailyTemp(double Tempeture)
 	{
+		int time; 
 		double celsius;
 		celsius = ( Tempeture - 32) *.5556; 
 		
-		System.out.println("The tempeture in celsius at  " + time "is" + celsius); 
+		System.out.println("The tempeture in celsius at  " + time + "is" + celsius); 
 	}
 
 }

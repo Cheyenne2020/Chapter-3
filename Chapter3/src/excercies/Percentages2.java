@@ -1,12 +1,19 @@
 package excercies;
 
-public class Percentage {
+import java.util.Scanner;
+
+public class Percentages2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int x = 5;
-		int y = 12;
+		int x ;
+		int y ;
+		Scanner input = new Scanner(System.in); 
+		System.out.println("Please enter an x value >> "); 
+		x = input.nextInt(); 
+		System.out.println("Please enter an y value >> ");
+		y = input.nextInt(); 
 		
 		computePercent(x , y); 
 

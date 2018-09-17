@@ -7,7 +7,8 @@ public class FixDebugThree3 {
 		// TODO Auto-generated method stub
 		
 		 String name;
-	      name = getName;
+		 
+	      name = getName();
 	      displayGreeting(name); 
 
 	}
@@ -19,7 +20,7 @@ public class FixDebugThree3 {
 	      name = input.nextLine();
 	      return name;
 	}
-	 public static void displayGreeting(int name)
+	 public static void displayGreeting(String name)
 	{
 		 System.out.println("Hello, " + name + "!");
 	}
